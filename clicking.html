@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = 2, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="text"></p>
+    <button onclick="directClick()">Direct</button>
+    <button id="shortcurt">ShortCurt</button>
+    <script>
+        //brain need 1
+        function directClick() {
+            const p = document.getElementById('text');
+            p.innerText = 'js diye add';
+        }
+        //brain need 2
+        document.getElementById('shortcurt').addEventListener('click',
+            function () {
+                const p = document.getElementById('text');
+                p.innerText = 'short curt a add';
+            })
+    </script>
+</body>
+
+</html>
