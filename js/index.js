@@ -21,4 +21,14 @@ makeGreen.addEventListener('click', backgroundGreen);
 function backgroundGreen() {
     document.body.style.backgroundColor = 'green';
 }
-
+//step----6
+const makeSalmon = document.getElementById('salmon');
+makeSalmon.addEventListener('click', function () {
+    document.body.style.backgroundColor = 'salmon';
+}
+)
+//step----7
+document.getElementById('light-blue').addEventListener('click',
+    function () {
+        document.body.style.backgroundColor = ' #8B0000'
+    })
